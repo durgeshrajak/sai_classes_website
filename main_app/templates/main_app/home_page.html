@@ -1,0 +1,25 @@
+{% load static %}
+
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- head content here -->
+  <link rel="stylesheet" href="{% static 'dist/css/nevbar.css' %}">
+</head>
+<body>
+  {% include 'main_app/navbar.html' %}
+  
+  <!-- main content here -->
+  
+</body>
+</html>
+
+{% comment %} <html>
+  <h3> our gallery</h3>
+    {% include 'main_app/gallery.html' %}
+</html>
+
+<html>
+    {% include 'main_app/contect.html' %}
+</html> {% endcomment %}

@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'dist/css/gallery.css' %}">
+    </head>
+    <body>
+	    <div class="gallery">
+            <div class="gallery-item">
+            <img src="{% static 'dist/img/12th_far_well1.jpeg' %}" alt="Image 1">
+            <div class="overlay">
+                <div class="overlay-text">
+                <h3>Image 1</h3>
+                </div>
+            </div>
+            </div>
+        
+        <div class="gallery-item">
+          <img src="{% static 'dist/img/12_far_well2.jpeg' %}" alt="Image 2">
+          <div class="overlay">
+            <div class="overlay-text">
+              <h3>Image 2</h3>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+            <img src="{% static 'dist/img/crimus_day.jpeg' %}" alt="Image 3">
+            <div class="overlay">
+              <div class="overlay-text">
+                <h3>Image 3</h3>
+              </div>
+            </div>
+          </div>
+        
+        <!-- Add more gallery items as needed -->
+      </div>
+      
+    </body>
+</html>	

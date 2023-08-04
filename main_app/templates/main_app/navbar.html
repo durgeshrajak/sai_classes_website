@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	<link rel="stylesheet" href="static/dist/css/nevbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	
+ 
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .billing-line {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+	
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;"> SAI CLASSES </h1> </div>
+	<div class="menu">
+		<a href="#" style="font-size: ">Home</a>
+		<a href="gallery">gallery</a>
+		<a href="https://www.youtube.com/@newsaiclasses" target="_blank">about</a>
+		<a href="contect">contact</a>
+	</div>
+</nav>
+
+	<main>
+		<section>
+			<h3>Welcome To Sai Classes</h3>
+			<h1>DO VISIT & MEET WITH <span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+			<p class="billing-line" >"Your path to success starts here"</p>
+			<a href="#" class="btnone">learn more</a>
+			<a href="{% url 'login_page' %}" class="btntwo">Login here</a>
+
+		</section>
+	</main>
+
+
+</header>
+
+</body>
+</html>
+
+
